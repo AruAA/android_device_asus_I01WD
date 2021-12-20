@@ -32,15 +32,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 2280
 
-# Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Evo stuff.
+$(call inherit-product, vendor/evolution/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/I01WD/device.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_DEVICE := I01WD
-PRODUCT_NAME := aosp_I01WD
+PRODUCT_NAME := evolution_I01WD
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := ASUS_I01WD
 PRODUCT_MANUFACTURER := Asus

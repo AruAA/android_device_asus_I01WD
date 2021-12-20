@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/aosp_I01WD.mk
+    $(LOCAL_DIR)/evolution_I01WD.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_I01WD-user \
-    aosp_I01WD-userdebug \
-    aosp_I01WD-eng
+    evolution_I01WD-user \
+    evolution_I01WD-userdebug \
+    evolution_I01WD-eng
